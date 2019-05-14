@@ -1,0 +1,60 @@
+         39401966 function calls in 19.785 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001   19.784   19.784 <string>:1(<module>)
+  2073600    2.675    0.000    8.825    0.000 Image.py:1393(paste)
+  4147200    0.714    0.000    2.395    0.000 Image.py:155(isImageType)
+        1    0.000    0.000    0.000    0.000 Image.py:2340(_check_size)
+        1    0.000    0.000    0.003    0.003 Image.py:2358(new)
+        1    0.000    0.000    0.000    0.000 Image.py:439(_getdecoder)
+        2    0.000    0.000    0.000    0.000 Image.py:538(__init__)
+        3    0.000    0.000    0.000    0.000 Image.py:558(size)
+        1    0.000    0.000    0.000    0.000 Image.py:562(_new)
+        2    0.000    0.000    0.000    0.000 Image.py:580(__exit__)
+        2    0.000    0.000    0.000    0.000 Image.py:617(__del__)
+  2073600    0.695    0.000    2.002    0.000 Image.py:626(_ensure_mutable)
+  2073602    1.005    0.000    1.308    0.000 Image.py:820(load)
+        1    0.000    0.000    0.073    0.073 ImageFile.py:137(load)
+        1    0.000    0.000    0.000    0.000 ImageFile.py:265(load_prepare)
+        1    0.000    0.000    0.000    0.000 ImageFile.py:65(_tilesort)
+      320    0.000    0.000    0.002    0.000 PngImagePlugin.py:111(read)
+        1    0.000    0.000    0.000    0.000 PngImagePlugin.py:136(close)
+        1    0.000    0.000    0.000    0.000 PngImagePlugin.py:636(load_prepare)
+      320    0.001    0.000    0.004    0.000 PngImagePlugin.py:644(load_read)
+        1    0.000    0.000    0.000    0.000 PngImagePlugin.py:670(load_end)
+      320    0.000    0.000    0.000    0.000 _binary.py:76(i32be)
+  2073601    0.443    0.000    0.767    0.000 _util.py:8(isStringType)
+  6220800    0.819    0.000    0.819    0.000 pperf.py:18(<lambda>)
+  6220800    1.515    0.000    1.515    0.000 pperf.py:20(<lambda>)
+        1    1.686    1.686   19.784   19.784 pperf.py:23(pixelate)
+  2073600    6.862    0.000    9.196    0.000 pperf.py:8(get_avg_color)
+        1    0.003    0.003    0.003    0.003 {built-in method PIL._imaging.fill}
+        1    0.000    0.000    0.000    0.000 {built-in method PIL._imaging.new}
+        1    0.000    0.000    0.000    0.000 {built-in method PIL._imaging.zip_decoder}
+      320    0.000    0.000    0.000    0.000 {built-in method _struct.unpack_from}
+        1    0.000    0.000   19.785   19.785 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+  4147203    1.680    0.000    1.680    0.000 {built-in method builtins.hasattr}
+  2073603    0.325    0.000    0.325    0.000 {built-in method builtins.isinstance}
+  2073602    0.148    0.000    0.148    0.000 {built-in method builtins.len}
+      320    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        1    0.000    0.000    0.000    0.000 {method 'cleanup' of 'ImagingDecoder' objects}
+        1    0.000    0.000    0.000    0.000 {method 'close' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+      320    0.068    0.000    0.068    0.000 {method 'decode' of 'ImagingDecoder' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+      320    0.000    0.000    0.000    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+  2073600    0.838    0.000    0.838    0.000 {method 'paste' of 'ImagingCore' objects}
+  2073601    0.303    0.000    0.303    0.000 {method 'pixel_access' of 'ImagingCore' objects}
+      960    0.002    0.000    0.002    0.000 {method 'read' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setimage' of 'ImagingDecoder' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+      320    0.001    0.000    0.001    0.000 {method 'tell' of '_io.BufferedReader' objects}
+
+
+
+Process finished with exit code 0

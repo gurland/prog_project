@@ -1,0 +1,63 @@
+         39401966 function calls in 30.185 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001   30.185   30.185 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 Image.py:2340(_check_size)
+        1    0.000    0.000    0.003    0.003 Image.py:2358(new)
+        1    0.000    0.000    0.000    0.000 Image.py:439(_getdecoder)
+        2    0.000    0.000    0.000    0.000 Image.py:538(__init__)
+        3    0.000    0.000    0.000    0.000 Image.py:558(size)
+        1    0.000    0.000    0.000    0.000 Image.py:562(_new)
+        2    0.000    0.000    0.000    0.000 Image.py:580(__exit__)
+        2    0.000    0.000    0.000    0.000 Image.py:617(__del__)
+  2073602    1.254    0.000    1.634    0.000 Image.py:820(load)
+  2073600    1.608    0.000    3.203    0.000 ImageDraw.py:101(_getink)
+  2073600    1.464    0.000    5.617    0.000 ImageDraw.py:243(rectangle)
+  2073600    2.693    0.000    9.608    0.000 ImageDraw.py:337(Draw)
+  2073600    4.397    0.000    6.916    0.000 ImageDraw.py:49(__init__)
+        1    0.001    0.001    0.086    0.086 ImageFile.py:137(load)
+        1    0.000    0.000    0.000    0.000 ImageFile.py:265(load_prepare)
+        1    0.000    0.000    0.000    0.000 ImageFile.py:65(_tilesort)
+      320    0.001    0.000    0.003    0.000 PngImagePlugin.py:111(read)
+        1    0.000    0.000    0.000    0.000 PngImagePlugin.py:136(close)
+        1    0.000    0.000    0.000    0.000 PngImagePlugin.py:636(load_prepare)
+      320    0.002    0.000    0.010    0.000 PngImagePlugin.py:644(load_read)
+        1    0.000    0.000    0.000    0.000 PngImagePlugin.py:670(load_end)
+      320    0.001    0.000    0.001    0.000 _binary.py:76(i32be)
+  2073601    0.550    0.000    1.005    0.000 _util.py:8(isStringType)
+  6220800    0.868    0.000    0.868    0.000 pperf.py:18(<lambda>)
+  6220800    1.842    0.000    1.842    0.000 pperf.py:20(<lambda>)
+        1    3.507    3.507   30.184   30.184 pperf.py:23(pixelate)
+  2073600    8.654    0.000   11.364    0.000 pperf.py:8(get_avg_color)
+  2073600    0.422    0.000    0.422    0.000 {built-in method PIL._imaging.draw}
+        1    0.003    0.003    0.003    0.003 {built-in method PIL._imaging.fill}
+        1    0.000    0.000    0.000    0.000 {built-in method PIL._imaging.new}
+        1    0.000    0.000    0.000    0.000 {built-in method PIL._imaging.zip_decoder}
+      320    0.000    0.000    0.000    0.000 {built-in method _struct.unpack_from}
+        1    0.000    0.000   30.185   30.185 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+  2073603    0.455    0.000    0.455    0.000 {built-in method builtins.isinstance}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+      320    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        1    0.000    0.000    0.000    0.000 {method 'cleanup' of 'ImagingDecoder' objects}
+        1    0.000    0.000    0.000    0.000 {method 'close' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+      320    0.075    0.000    0.075    0.000 {method 'decode' of 'ImagingDecoder' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+  4147200    1.053    0.000    1.053    0.000 {method 'draw_ink' of 'ImagingDraw' objects}
+  2073600    0.950    0.000    0.950    0.000 {method 'draw_rectangle' of 'ImagingDraw' objects}
+        1    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+      320    0.000    0.000    0.000    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+  2073601    0.380    0.000    0.380    0.000 {method 'pixel_access' of 'ImagingCore' objects}
+      960    0.005    0.000    0.005    0.000 {method 'read' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setimage' of 'ImagingDecoder' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+      320    0.001    0.000    0.001    0.000 {method 'tell' of '_io.BufferedReader' objects}
+
+
+
+Process finished with exit code 0
